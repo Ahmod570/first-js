@@ -59,3 +59,70 @@ egg_case.shift() ;
 egg_case.push("last one") ;
 egg_case.pop()
 console. log(egg_case );
+
+
+    // array 
+var dimCase = [1, 2, 3, 4, 5];
+var index = dimCase.indexOf(2);
+var numberGet = dimCase[3];
+dimCase[3] = 35;
+console.log(dimCase);
+// condition
+var amarGecheAche = 30000000;
+var car = 2200000;
+var bike = 180000;
+var iphone = 25000;
+// if (amarGecheAche > car) {
+//   console.log("hurray ! ame car kinmu");
+// } else if (amarGecheAche > bike) {
+//   console.log("hurray ! ame bike kinmu");
+// } else if (amarGecheAche > iphone) {
+//   console.log("hurray ! ame iphone kinmu");
+// } else {
+//   console.log("na re ba ame kintam partam nay");
+// }
+
+switch (amarGecheAche > car) {
+  case amarGecheAche > car:
+    console.log("hurray ! ame car kinmu");
+    break;
+  case amarGecheAche > bike:
+    console.log("hurray ! ame car kinmu");
+    break;
+  default:
+    console.log("hurray ! ame kintam nay");
+    break;
+}
+
+var kinmu = true ? "ami bike kinmu " : "na kintam nay kicchu";
+console.log(kinmu);
+
+
+// loop
+// var s = 0;
+// while (-0) {
+//   console.log("s or maan :", s);
+//   s--;
+//   console.log(s);
+// }
+
+// // 1. variable declear
+// // 2. condition
+// // statement {}
+// // 3.increement , decreement
+
+// for (var t = 0; -0; t++) {
+//   console.log("t or maan :", t);
+// }
+
+// do {
+//   console.log("ami badsha");
+// } while (s < 5);
+// {
+//   console.log("s or maan :", s);
+//   s++;
+// }
+
+
+
+
